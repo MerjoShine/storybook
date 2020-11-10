@@ -12,21 +12,21 @@ export default {
   },
 };
 
-const Template = (args) => <Student/>;
+const Template = (args) => <Student {...args}/>;
 
-export const Primary = Template.bind({});
-// Primary.args = {
+export const Default = Template.bind({});
+// Default.args = {
 //   primary: true,
 //   label: 'Button',
 // };
 
-// export const Secondary = Template.bind({});
-// Secondary.args = {
+export const Empty = Template.bind({});
+// Empty.args = {
 //   label: 'Button',
 // };
 
-// export const Large = Template.bind({});
-// Large.args = {
+export const Normalize = Template.bind({});
+// Normalize.args = {
 //   size: 'large',
 //   label: 'Button',
 // };
