@@ -16,6 +16,15 @@ export class Student extends Component {
 	this.props.label2===""?true:false
 	doughnutData=this.props.data===0?0:this.props.data||10
 
+	continue=this.props.continue==="Primary"?"text-primary":this.props.continue==="Secondary"?"text-secondary":
+	this.props.continue==="Success"?"text-success":this.props.continue==="Danger"?"text-danger":this.props.continue==="Warning"?"text-warning":
+	this.props.continue==="Info"?"text-info":this.props.continue==="Dark"?"text-dark":this.props.continue==="Muted"?"text-muted":"text-info"
+
+	decrease=this.props.decrease==="Primary"?"text-primary":this.props.decrease==="Secondary"?"text-secondary":
+	this.props.decrease==="Success"?"text-success":this.props.decrease==="Danger"?"text-danger":this.props.decrease==="Warning"?"text-warning":
+	this.props.decrease==="Info"?"text-info":this.props.decrease==="Dark"?"text-dark":this.props.decrease==="Muted"?"text-muted":"text-danger"
+
+
 	lineData=this.props.data1===0?[0]:this.props.data1===25?[0,25]:this.props.data1===50?[0,25,50]:
 	this.props.data1===75?[0,25,50,75]:[0,25]
 	lineDataLabel=this.props.data1===0?[ 'Today', '', '', 'Age 32' ]:this.props.data1===25?[ 'Age 25', 'Today', '', 'Age 32' ]:this.props.data1===50?[ 'Age 25', '', 'Today', 'Age 32' ]:
@@ -153,7 +162,7 @@ export class Student extends Component {
 						<div className="row mt-3">
 							<div className="col-md-6 col-sm-12">
 								<div className="card card1 mb-5">
-									<div className="h6 text text-info">
+									<div className={"h6 text "+this.continue}>
 									<FaChevronCircleRight />&nbsp;&nbsp;<b>Continue
 										saving when you can</b>
 									</div>
@@ -165,7 +174,7 @@ export class Student extends Component {
 							</div>
 							<div className="col-md-6 col-sm-12">
 								<div className="card card1 mb-5">
-									<div className="h6 text text-danger">
+									<div className={"h6 text "+this.decrease}>
 									<FaChevronCircleDown />&nbsp;&nbsp;<b>Decrease
 										contributions to your IRA for now!</b>
 									</div>
