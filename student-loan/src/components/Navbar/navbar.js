@@ -172,7 +172,7 @@ export default function Dashboard() {
                 <div className="card">
                     <h1 className="card-title ml-5 mt-2">Accounts</h1>
                     <div className="card-body" style={{paddingLeft:'25%',paddingRight:'25%'}}>
-                        <img src="./assets/accounts2.png" className="img-fluid img-thumbnail"/>
+                        <img src="./assets/accounts2.png" alt="Accounts" className="img-fluid img-thumbnail"/>
                     </div>
                 </div>
             
@@ -184,7 +184,7 @@ export default function Dashboard() {
             <div className="card">
                     <h1 className="card-title ml-5 mt-2">Profile</h1>
                     <div className="card-body" style={{paddingLeft:'25%',paddingRight:'25%'}}>
-                        <img src="./assets/profile.png" className="img-fluid img-thumbnail"/>
+                        <img src="./assets/profile.png" alt="Profile" className="img-fluid img-thumbnail"/>
                     </div>
                 </div>
             
@@ -196,7 +196,7 @@ export default function Dashboard() {
             <div className="card">
                     <h1 className="card-title ml-5 mt-2">Activity</h1>
                     <div className="card-body" style={{paddingLeft:'25%',paddingRight:'25%'}}>
-                        <img src="./assets/activity.png" className="img-fluid img-thumbnail"/>
+                        <img src="./assets/activity.png" alt="Activity" className="img-fluid img-thumbnail"/>
                     </div>
                 </div>
             
@@ -208,7 +208,7 @@ export default function Dashboard() {
             <div className="card">
                     <h1 className="card-title ml-5 mt-2">Support</h1>
                     <div className="card-body" style={{paddingLeft:'25%',paddingRight:'25%'}}>
-                        <img src="./assets/support.png" className="img-fluid img-thumbnail"/>
+                        <img src="./assets/support.png" alt="Support" className="img-fluid img-thumbnail"/>
                     </div>
                 </div>
             
@@ -220,7 +220,7 @@ export default function Dashboard() {
             <div className="card">
                     <h1 className="card-title ml-5 mt-2">Add Cash</h1>
                     <div className="card-body" style={{paddingLeft:'25%',paddingRight:'25%'}}>
-                        <img src="./assets/addCash.jpg" className="img-fluid img-thumbnail"/>
+                        <img src="./assets/addCash.jpg" alt="addCash" className="img-fluid img-thumbnail"/>
                     </div>
                 </div>
             
@@ -232,7 +232,7 @@ export default function Dashboard() {
             <div className="card">
                     <h1 className="card-title ml-5 mt-2">Get Cash</h1>
                     <div className="card-body" style={{paddingLeft:'35%',paddingRight:'25%'}}>
-                        <img src="./assets/getCash.png" className="img-thumbnail" style={{height:'1%',width:'80%'}}/>
+                        <img src="./assets/getCash.png" alt="getCash" className="img-thumbnail" style={{height:'1%',width:'80%'}}/>
                     </div>
                 </div>
             

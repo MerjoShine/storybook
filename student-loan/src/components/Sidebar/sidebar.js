@@ -22,19 +22,24 @@ export default function SideNavbar(props) {
     }
     if (selectedIndex === 1) {
         props.index(1)
-    } if (selectedIndex === 2) {
+    } 
+    if (selectedIndex === 2) {
         props.index(2)
         // return <Redirect to="/#profile"></Redirect>
-    } if (selectedIndex === 3) {
+    } 
+    if (selectedIndex === 3) {
         props.index(3)
         // return <Redirect to="/#activity"></Redirect>
-    } if (selectedIndex === 4) {
+    } 
+    if (selectedIndex === 4) {
         props.index(4)
         // return <Redirect to="/#support"></Redirect>
-    } if (selectedIndex === 5) {
+    } 
+    if (selectedIndex === 5) {
         props.index(5)
         // return <Redirect to="/#addcash"></Redirect>
-    } if (selectedIndex === 6) {
+    } 
+    if (selectedIndex === 6) {
         props.index(6)
         // return <Redirect to="/#getcash"></Redirect>
     }

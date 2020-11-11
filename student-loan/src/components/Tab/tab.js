@@ -29,7 +29,7 @@ function TabPanel(props) {
 		>
 			{value === index && (
 				<Box p={3}>
-					<Typography>{children}</Typography>
+					<Typography component='div'>{children}</Typography>
 				</Box>
 			)}
 		</div>
@@ -90,6 +90,7 @@ export default function ScrollableTabsButtonForce() {
 			</TabPanel>
 			<TabPanel value={value} index={2}>
 				<Student />
+				
 			</TabPanel>
 			<TabPanel value={value} index={3}>
 				{/* <OneTimeLoan /> */}
