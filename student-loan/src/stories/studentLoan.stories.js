@@ -66,7 +66,39 @@ export default {
               75
             ]
           }
-          }
+          },
+    continue:{
+      name: 'Continue color',
+      control: {
+        type: 'inline-radio',
+        options: [
+          "Primary", 
+          "Secondary", 
+          "Success",
+          "Danger",
+          "Warning",
+          "Info",
+          "Dark",
+          "Muted"
+        ]
+      }
+      },
+      decrease:{
+        name: 'Decrease color',
+        control: {
+          type: 'inline-radio',
+          options: [
+            "Primary", 
+            "Secondary", 
+            "Success",
+            "Danger",
+            "Warning",
+            "Info",
+            "Dark",
+            "Muted"
+          ]
+        }
+        }
   },
 };
 
@@ -78,7 +110,9 @@ Default.args = {
   data1:25,
   header:"Pay off student loan",
   label1:"Goal progress",
-  label2:"Goal trajectory"
+  label2:"Goal trajectory",
+  continue:"Info",
+  decrease:"Danger"
 };
 
 export const Empty = Template.bind({});
@@ -88,6 +122,8 @@ Empty.args = {
   header:"",
   label1:"",
   label2:"",
+  continue:"Muted",
+  decrease:"Muted"
 
 };
 
